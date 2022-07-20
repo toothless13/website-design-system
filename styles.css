@@ -1,0 +1,289 @@
+/* Initial Setup */
+html {
+    box-sizing: border-box;
+    text-align: center;
+}
+
+*, 
+*:before, 
+*:after {
+    box-sizing: inherit;
+}
+
+div {
+    box-sizing: border-box;
+    width: 99%;
+    margin: auto;
+    display: inline-block;
+}
+
+.container {
+    border: 1px solid hsl(183, 45%, 53%);
+    margin-bottom: 20px;
+}
+
+/* Header */
+header {
+    box-sizing: border-box;
+    width: 50%;
+    margin: auto;
+}
+
+/* Navigation */
+
+nav {
+    width: 99%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+nav>ul {
+    margin: auto;
+    padding: 0;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+    border: 1px solid hsl(183, 45%, 53%);
+    width: 30%;
+    text-align: center;
+    font-size: 20px;
+    min-height: 5rem;
+    line-height: 5rem;
+    margin: 10px;
+}
+
+/* Colours */
+
+.blue {
+    background-color: hsl(183, 45%, 53%);
+    display: inline-block;
+    width: 30%;
+    min-height: 5rem;
+    color: hsl(360, 100%, 100%);
+    text-align: center;
+    vertical-align: auto;
+    margin: 10px;
+}
+
+.lilac {
+    background-color: hsl(254, 59%, 58%);
+    display: inline-block;
+    width: 30%;
+    min-height: 5rem;
+    color: hsl(360, 100%, 100%);
+    text-align: center;
+    vertical-align: auto;
+    margin: 10px;
+}
+
+.pink {
+    background-color: hsl(0, 90%, 74%);
+    display: inline-block;
+    width: 30%;
+    min-height: 5rem;
+    color: hsl(360, 100%, 100%);
+    text-align: center;
+    vertical-align: auto;
+    margin: 10px; 
+}
+
+.green {
+    background-color: hsl(149, 54%, 75%);
+    display: inline-block;
+    width: 30%;
+    min-height: 5rem;
+    color: hsl(360, 100%, 100%);
+    text-align: center;
+    vertical-align: auto;
+    margin: 10px;
+}
+
+.chalk {
+    background-color: hsl(40, 19%, 85%);
+    display: inline-block;
+    width: 30%;
+    min-height: 5rem;
+    color: hsl(360, 100%, 100%);
+    text-align: center;
+    vertical-align: auto;
+    margin: 10px;
+}
+
+.red {
+    background-color: hsl(0,100% ,42%);
+    display: inline-block;
+    width: 30%;
+    min-height: 5rem;
+    color: hsl(360, 100%, 100%);
+    text-align: center;
+    vertical-align: auto;
+    margin: 10px;
+}
+/* Font Styles */
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.montserrat.bold {
+    font-weight: bold;
+}
+
+.montserrat.italic {
+    font-style: italic;
+}
+
+.nunito {
+    font-family: 'Nunito', sans serif;
+}
+
+.nunito.bold {
+    font-weight: bold;
+}
+
+.nunito.italic {
+    font-style: italic;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.poppins.bold {
+    font-weight: bold;
+}
+
+.poppins.italic {
+    font-style: italic;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.roboto.bold {
+    font-weight: bold;
+}
+
+.roboto.italic {
+    font-style: italic;
+}
+
+.roboto-condensed {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.roboto-condensed.bold {
+    font-weight: bold;
+}
+
+.roboto-condensed.italic {
+    font-style: italic;
+}
+
+.zilla {
+    font-family: 'Zilla Slab', serif;
+}
+
+.zilla.bold {
+    font-weight: bold;
+}
+
+.zilla.italic {
+    font-style: italic;
+}
+
+.container h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+div.fonts div {
+    border: 1px solid hsl(0, 90%, 74%);
+    display: inline-block;
+    width: 30%;
+    height: 230px;
+    text-align: center;
+    margin: 20px;
+    padding: 50px 0;
+}
+
+div.fonts div.nunito {
+    position: relative;
+    top: 1px;
+}
+
+div.fonts div.poppins {
+    position: relative;
+    top: 5px;
+}
+
+div.fonts {
+    display: table;
+    margin: 0 auto;
+}
+
+/* Text Styles */
+
+div.text-styles div {
+    border: 1px solid hsl(149, 54%, 75%);
+    width: 30%;
+    height: 200px;
+    text-align: center;
+    margin: 10px;
+    padding: 50px 0;
+    margin-top: 20px;
+}
+
+div.text-styles div.h2 {
+    position: relative;
+    top: 11px;
+}
+
+div.text-styles div.h3 {
+    position: relative;
+    top: -16px;
+}
+
+div.text-styles div.paragraph {
+    position: relative;
+    top: -16px;
+}
+
+h1 {
+    Font-weight: 700;
+    Font-size: 30px;
+    Font-family: Montserrat;
+    max-width: fit-content;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+h2 {
+    Font-weight: 700;
+    Font-size: 24px;
+    font-family: Roboto;
+    max-width: fit-content;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+h3 {
+    Font-weight: 500;
+    Font-size: 18px;
+    Font-family: Roboto;
+    max-width: fit-content;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+p,
+li {
+    Font-weight: 400;
+    Font-size: 14px;
+    Font-family: Poppins;
+}
